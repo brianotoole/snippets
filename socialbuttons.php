@@ -1,31 +1,31 @@
 <!-- Twitter, Facebook, Comments share meta with styling -->
 <style>
  .twitter.p-button.has-icon {
-background-color: #00aced;
+	background-color: #00aced;
 }
 
 .facebook.p-button.has-icon {
-background-color: #325a97;
+	background-color: #325a97;
 }
 
 .twitter.p-button.has-icon:hover {
-background-color: #038abd;
+	background-color: #038abd;
 }
 
 .facebook.p-button.has-icon:hover{
-background-color: #1d3e70;
+	background-color: #1d3e70;
 }
 
 .comments.p-button.has-icon:hover{
-background-color: #000;
+	background-color: #000;
 }
 
 .has-icon.p-button {
-color: #fff!important;
-white-space: nowrap;
-font-family: inherit;
-font-size: 13px;
-font-weight: 600;
+	color: #fff!important;
+	white-space: nowrap;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
 }
 
 .leave-reply{ 
@@ -37,26 +37,26 @@ font-weight: 600;
 }
 
 .p-button, .p-button.has-icon {
-font-size: 13px;
-font-weight: 500;
-text-transform: uppercase;
-color: #FFF;
-display: inline-block;
-background-color: #292929;
-border: 0;
-padding: 6px 20px 5px 32px;
-position: relative;
-vertical-align: middle;
-margin-right: -1px;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #FFF;
+	display: inline-block;
+	background-color: #292929;
+	border: 0;
+	padding: 6px 20px 5px 32px;
+	position: relative;
+	vertical-align: middle;
+	margin-right: -1px;
 }
 
 .has-icon.p-button .ss-social {
-color: #fff;
-position: absolute;
-top: 6px;
-left: 0;
-width: 45px;
-text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 45px;
+	text-align: center;
 }
 
 i.icon-comments-alt{
