@@ -66,7 +66,7 @@ i.icon-comments-alt{
 
 
 
-    <div class="m-entry__social">
+     <div class="m-entry__social">
 	<a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> - <?php the_permalink(); ?>" class="p-button has-icon twitter">
 	  <span class="ss-social" unselectable="on"><i class="icon-twitter"></i></span><span class="p-button__social-text">Tweet</span>
 	</a>
