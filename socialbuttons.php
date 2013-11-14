@@ -66,18 +66,16 @@ i.icon-comments-alt{
 
 
 
-			<div class="m-entry__social">
-			  <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> - <?php the_permalink(); ?>" class="p-button has-icon twitter">
-			  <span class="ss-social" unselectable="on"><i class="icon-twitter"></i></span><span class="p-button__social-text">Tweet</span>
-			  </a>
+    <div class="m-entry__social">
+	<a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> - <?php the_permalink(); ?>" class="p-button has-icon twitter">
+	  <span class="ss-social" unselectable="on"><i class="icon-twitter"></i></span><span class="p-button__social-text">Tweet</span>
+	</a>
 
-			  <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" onclick="window.open(this.href, '', 'height=279,width=575'); return false;" class="p-button has-icon facebook">
-			  <span class="ss-social" unselectable="on"><i class="icon-facebook"></i></span><span class="p-button__social-text">Share</span>
-			  </a>
+	<a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" onclick="window.open(this.href, '', 'height=279,width=575'); return false;" class="p-button has-icon facebook">
+	  <span class="ss-social" unselectable="on"><i class="icon-facebook"></i></span><span class="p-button__social-text">Share</span>
+	</a>
 			  
-			  <a href="#comments" class="p-button has-icon comments">
-			    <span class="comments-count-wrapper"><i class="icon-comments-alt"></i>
-			    </span>
-			    Comments
-			  </a>
-		   </div>
+	<a href="#comments" class="p-button has-icon comments">
+	  <span class="comments-count-wrapper"><i class="icon-comments-alt"></i>Comments</span>
+	</a>
+     </div>
