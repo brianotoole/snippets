@@ -1,6 +1,7 @@
 <?php
 /**
  * Deregister jQuery & enqueue CDN version 
+ * Add or include to funtions.php
  */
 function custom_jquery() {
   wp_deregister_script('jquery');
