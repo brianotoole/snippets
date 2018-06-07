@@ -8,4 +8,7 @@ function get_thumb_img($id) {
   return $image[0];
 }
 
+// USAGE
+//<img src=" '. echo get_thumb_img($id) .' ">
+
 ?>
