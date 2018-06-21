@@ -5,10 +5,6 @@
   * RESET: u-mt-0 == resets to 0
   */
 
-
-/**
-  * Generate Utility Classes for Margin & Paddings
-  */
 $i: 0;
 @while $i <= 50 {
   .u-mt-#{$i} { margin-top: 1px * $i; }
