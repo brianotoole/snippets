@@ -1,0 +1,25 @@
+/**
+  * Margins & Paddings
+  * Easy utility classes for margin and paddings
+  * USAGE: u-mt-10 == margin-top: 10px;
+  * RESET: u-mt-0 == resets to 0
+  */
+
+
+/**
+  * Generate Utility Classes for Margin & Paddings
+  */
+$i: 0;
+@while $i <= 50 {
+  .u-mt-#{$i} { margin-top: 1px * $i; }
+  .u-mb-#{$i} { margin-bottom: 1px * $i; }
+  .u-ml-#{$i} { margin-left: 1px * $i; }
+  .u-mr-#{$i} { margin-right: 1px * $i; }
+    
+  .u-pt-#{$i} { padding-top: 1px * $i; }
+  .u-pb-#{$i} { padding-bottom: 1px * $i; }
+  .u-pl-#{$i} { padding-left: 1px * $i; }
+  .u-pr-#{$i} { padding-right: 1px * $i; }
+
+$i: $i + 1;
+}
